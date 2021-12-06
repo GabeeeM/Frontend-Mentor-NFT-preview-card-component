@@ -19,16 +19,110 @@ body {
 }
 
 .Card {
-    border-radius: 25px;
-    height: 55vh;
-    width: 35vh;
+    border-radius: 2vh;
+    height: 70vh;
+    width: 40vh;
     background-color: var(--cardBackground);
+    font-family: 'Outfit';
 }
+
+.image {
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+    height: auto;
+    width: 35vh;
+}
+
+h1 {
+    color: var(--white);
+    margin-top: 3vh;
+    margin-left: 2vh;
+    text-align: left;
+    font-size: 3vh;
+}
+
+.p {
+    color: var(--softBlue);
+    font-weight: lighter;
+    margin-top: 2.5vh;
+    margin-left: 2vh;
+    margin-right: 1vh;
+    line-height: 3vh;
+    text-align: left;
+    word-wrap: break-word;
+    font-size: 2vh;
+}
+
+.rowThing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2vh;
+}
+
+.rowThing .timer {
+    padding-left: 0.5vh;
+    font-size: 2.5vh;
+    color: var(--cyan);
+}
+
+.rowThing .icon {
+    width: 1.2vh;
+}
+
+.rowThing .right {
+    padding-right: 2vh;
+}
+
+.rowThing .icon2 {
+    width: 2vh;
+}
+
+.rowThing .timer2 {
+    color: var(--softBlue);
+    font-size: 2.5vh;
+}
+
+.line {
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-top: 2vh;
+}
+
+.bywho {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 2vh;
+    margin-top: 2vh;
+}
+
+.bywho .artist {
+    height: 5vh;
+}
+
+.bywho .nameofguy {
+    font-size: 2vh;
+    padding-left: 2vh;
+    color: var(--softBlue);
+    font-weight: lighter;
+}
+
+
 
 .attribution {
     font-size: 11px; 
     text-align: center; 
     justify-content: center;
+}
+
+hr {
+    height: 1px;
+    background-color: var(--softBlue);
+    border: none;
 }
     
 .attribution a { color: hsl(228, 45%, 44%); }
