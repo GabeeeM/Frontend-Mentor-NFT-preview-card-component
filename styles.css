@@ -1,0 +1,39 @@
+:root {
+    --softBlue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --background: hsl(217, 54%, 11%);
+    --cardBackground: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    margin: 0px;
+    height: 100vh;
+    background-color: var(--background);
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card {
+    border-radius: 25px;
+    height: 55vh;
+    width: 35vh;
+    background-color: var(--cardBackground);
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+    justify-content: center;
+}
+    
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
+
